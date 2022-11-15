@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+		<title>MULTITECH | Главная</title>
+		<link rel="stylesheet" href="css/wrapper.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+<div class="form-main">
+    <div class="form-wrapper">
+        <div class="form-wrapper-inner">
+            <div class="form__head">
+                <div class="form__head-title">
+                    <div class="form__head-title-title">
+                        ЗАЯВКА НА РАССЧЕТ<br>СТОИМОСТИ ПРОЕКТА
+                    </div>
+                    <div class="form__head-title-desc">
+                        Расскажите о  вашем проекте. Мы свяжемся с Вами и обсудим детали.
+                    </div>
+                </div>
+                <div class="form__head-close">
+                    <img src="/img/close.svg" alt="">
+                </div>
+            </div>
+            <div class="form__body">
+                <div class="application__form">
+                    <div class="application__form-item">
+                        <input type="text" name="name" placeholder="Ваше имя">
+                    </div>
+
+                    <div class="application__form-item">
+                        <input type="text" name = 'mail' placeholder="Email">
+                        <input type="text" name='phone' placeholder="Номер телефона">
+                    </div>
+
+                    <div class="application__form-item">
+                        <input type="text" name='about' placeholder="Опишите ваш проект">
+                    </div>
+                </div>
+
+                <div class="application__send">
+                    <div class="checkbox">
+                        <input type="checkbox" id="checkbox" value="пицца">
+                        <label for="checkbox"><span>Согласен с условиями обработки <a href="/build/main.html">персональных
+                                        данных</a></span></label>
+                    </div>
+
+                    <button class="btn btn-primary sendorder">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sucsess">
+  <div class="sucsess-inner">
+    <div class="sucsess__wrapper">
+      <div class="sucsess__wrapper-close">
+        <img src="img/close.svg" alt="">
+      </div>
+      <div class="sucsess__wrapper-title">
+        Заявка успешно отправлена
+      </div>
+      <div class="sucsess__wrapper-description">
+        Первый свободный оператор перезвонит вам в ближайшее время.
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Header -->
+  <div class="header">
+      <div class="header__container">
+          <a href="/" class="header__container_logo">
+              <img src="img/logos.svg">
+          </a>
+               <div class="flex">
+              <div class="header__container_links">
+                <a class="header__container_links_link" href='/about/ '>О нас<span>1</span></a>
+                <a class="header__container_links_link" href='/services/development/'>Разработка<span>2</span></a>
+                <a class="header__container_links_link" href='/services/marketingstrategy/'>Маркетинг<span>3</span></a>
+                <a class="header__container_links_link" href='/portfolio/'>Портфолио<span>4</span></a>
+                <a class="header__container_links_link" href='/contacts/'>Контакты<span>5</span></a>
+              </div>
+
+              <div class="header__container_buttons">
+                  <button class="btn btn-primary">Обсудить проект</button>
+              </div>
+
+              <div class="header__container_burger">
+                  <div class="header__container_burger_con">
+                      <div class="header__container_burger_bar top"></div>
+                      <div class="header__container_burger_bar bottom"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+<!-- Multitech -->
+		<div class="fullscreen">
+			<div
+				class="fullscreen__multitech js-parallax"
+				data-particles=".fullscreen__multitech-particles"
+				data-particles2=".fullscreen__multitech-photo"
+			>
+				<div class="fullscreen__multitech-content">
+					<div class="fullscreen__multitech-photo"></div>
+					<div class="fullscreen__multitech-particles"></div>
+				</div>
+			</div>
+		</div>
+		<!-- Script-->
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/main2.js"></script>
+		</script>
+	</body>
+</html>
